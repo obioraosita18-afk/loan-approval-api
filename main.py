@@ -10,7 +10,7 @@ from pydantic import BaseModel, Field
 from typing import Literal
 
 app = FastAPI(
-    title="🏦 Loan Approval Prediction API",
+    title=" Loan Approval Prediction API",
     description="Predicts whether a loan application will be Approved or Rejected.",
     version="1.0.0",
 )
@@ -83,7 +83,7 @@ def encode_and_engineer(d: LoanApplication) -> np.ndarray:
 
 @app.get("/", tags=["Health"])
 def root():
-    return {"message": "🏦 Loan Approval API is running!", "docs": "/docs"}
+    return {"message": " Loan Approval API is running!", "docs": "/docs"}
 
 @app.get("/health", tags=["Health"])
 def health():
