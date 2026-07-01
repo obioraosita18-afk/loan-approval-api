@@ -4,5 +4,6 @@ scikit-learn==1.5.2
 xgboost==2.1.1
 numpy==2.1.1
 joblib==1.4.2
-pydantic==2.23.0
-
+pydantic>=2.9.0
+pydantic-core>=2.23.0
+gunicorn==23.0.0
